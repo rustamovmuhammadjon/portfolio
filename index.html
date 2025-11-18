@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rustamov Dev</title>
+    <meta name="description"
+        content="Rustamov Dev — Frontend Developer. I build responsive websites with HTML, CSS, JavaScript & React." />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="nav">
+        <div class="container nav-inner">
+            <div class="brand">Rustamov <span>Dev</span></div>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <h1>Hi, I’m <span>Muhammadjon Rustamov</span></h1>
+                <p class="lead">Frontend Developer & Web Designer — I build modern, responsive and user-friendly
+                    websites with clean code and fast performance.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="#projects" class="btn outline">View Projects</a>
+                </div>
+
+                <ul class="hero-skills">
+                    <li>HTML5</li>
+                    <li>CSS3 / Tailwind</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Git / GitHub</li>
+                </ul>
+            </div>
+
+            <div class="hero-right">
+                <!-- placeholder avatar -->
+                <div class="avatar">
+                    <img src="assets/avatar.jpg" alt="Muhammadjon Rustamov" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hello! I’m <strong>Muhammadjon</strong> — a Front-End Developer from Uzbekistan. I design and
+                        code responsive websites using HTML, CSS, JavaScript and React. I enjoy creating user-focused
+                        interfaces and clean maintainable code. I also teach web development basics through my channels
+                        <em>Rustamov Dev</em>.</p>
+
+                    <p>I’m currently studying Business Information Systems and actively building projects to strengthen
+                        my portfolio. I love solving problems, learning new tools and working on real projects, from
+                        landing pages to dashboards.</p>
+
+                    <a class="btn primary" href="#contact">Get in touch</a>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="num">1+</div>
+                        <div class="label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="num">10+</div>
+                        <div class="label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="num">1500+</div>
+                        <div class="label">Hours of Practice</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project card 1 -->
+                <article class="card">
+                    <img src="assets/project1.jpg" alt="E-commerce UI" />
+                    <div class="card-body">
+                        <h3>Clothing E-commerce (Front-End)</h3>
+                        <p>Responsive product listing & product detail UI built with HTML, CSS and JavaScript. Deployed
+                            on Netlify.</p>
+                        <div class="card-tags">HTML • CSS • JS • Netlify</div>
+                        <div class="card-actions">
+                            <a href="#" target="_blank" rel="noopener" class="btn outline small">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn small">Source</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project card 2 -->
+                <article class="card">
+                    <img src="assets/project2.jpg" alt="Zodiac App" />
+                    <div class="card-body">
+                        <h3>Zodiac Compatibility App</h3>
+                        <p>A small interactive app using JS for zodiac calculations and modern responsive layout. Good
+                            practice for DOM and logic skills.</p>
+                        <div class="card-tags">HTML • CSS • JS</div>
+                        <div class="card-actions">
+                            <a href="#" class="btn outline small">Live Demo</a>
+                            <a href="#" class="btn small">Source</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project card 3 -->
+                <article class="card">
+                    <img src="assets/project3.jpg" alt="Portfolio" />
+                    <div class="card-body">
+                        <h3>Agency Landing Page</h3>
+                        <p>Modern landing page focused on conversion and speed. Built with Tailwind CSS and optimized
+                            images.</p>
+                        <div class="card-tags">Tailwind • HTML • Performance</div>
+                        <div class="card-actions">
+                            <a href="#" class="btn outline small">Live Demo</a>
+                            <a href="#" class="btn small">Source</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Custom Website</h3>
+                    <p>Full front-end build (landing page, portfolio, business site) using HTML/CSS/JS or React.</p>
+                </div>
+                <div class="service">
+                    <h3>Figma → Code</h3>
+                    <p>Pixel-perfect conversion from Figma / Adobe XD to responsive HTML or React components.</p>
+                </div>
+                <div class="service">
+                    <h3>Bug Fixing & Optimization</h3>
+                    <p>Fix layout issues, speed up load time and improve cross-browser compatibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact-grid">
+                <form id="contactForm" class="contact-form" novalidate>
+                    <label>
+                        <span>Name</span>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </label>
+
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </label>
+
+                    <label>
+                        <span>Message</span>
+                        <textarea id="message" name="message" rows="6" placeholder="Describe your project..."
+                            required></textarea>
+                    </label>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn primary">Send Message</button>
+                        <button type="reset" class="btn outline">Reset</button>
+                    </div>
+
+                    <p id="formFeedback" class="feedback" aria-live="polite"></p>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Let's talk</h3>
+                    <p>Email: <a href="mailto:mrustamov0109@gmail.com">mrustamov0109@gmail.com</a></p>
+                    <p>Telegram: <a href="https://t.me/rustamovmuhammadjon" target="_blank">@rustamovmuhammadjon</a></p>
+                    <p>Location: Tashkent, Uzbekistan</p>
+                    <div class="socials">
+                        <a href="#" target="_blank">GitHub</a> •
+                        <a href="#" target="_blank">LinkedIn</a> •
+                        <a href="#" target="_blank">YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Rustamov Dev. All rights reserved.</div>
+            <div>Made with ❤️ • HTML • CSS • JS</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
